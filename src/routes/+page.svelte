@@ -21,7 +21,7 @@
   />
 </svelte:head>
 
-<h1>Library of books written by AI</h1>
+<h2>Books written by AI</h2>
 
 <p>
   Welcome :) Here, you can read and <b>create new books</b> from scratch, tailored to your interests,
@@ -50,13 +50,13 @@
 {#each categories as category}
   <h4 id={slugit(category)}>{category}</h4>
 
-  <ol>
+  <ul>
     {#each data.books.filter((book) => book.category === category) as book}
       <li>
         <a href={`/book/${book.slug}/${book.id}`}>{book.title}</a>
       </li>
     {/each}
-  </ol>
+  </ul>
 {/each}
 
 <style>

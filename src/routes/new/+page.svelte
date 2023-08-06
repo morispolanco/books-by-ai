@@ -67,6 +67,20 @@
   }
 </script>
 
+<svelte:head>
+  <title>Create New Book</title>
+  <meta name="twitter:title" content="Create New Book" />
+  <meta
+    name="twitter:description"
+    content="Harness the power of ChatGPT to generate a book on any subject"
+  />
+  <meta property="og:title" content="Create New Book" />
+  <meta
+    property="og:description"
+    content="Harness the power of ChatGPT to generate a book on any subject"
+  />
+</svelte:head>
+
 <h4 class="margin-none">Create New Book using AI</h4>
 
 <div class="margin-bottom" />

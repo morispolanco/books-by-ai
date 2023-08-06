@@ -27,13 +27,12 @@
   <meta property="og:description" content={data.summary} />
 </svelte:head>
 
-<div class="margin-bottom"><a href="/">Back to books written by AI</a></div>
+<div class="margin-bottom"><i>Category: {data.category}</i></div>
 
-<div><i>Category: {data.category}</i></div>
-
-<h4>
+<h4 class="margin-none">
   <a href={`/book/${data.slug}/${data.id}`}>{data.title}</a>
 </h4>
+<div>(by ChatGPT)</div>
 
 <h4>
   Chapter {data.chapter.title}

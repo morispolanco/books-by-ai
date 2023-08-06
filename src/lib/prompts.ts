@@ -106,6 +106,7 @@ Physical Sciences
 Biological Sciences
 Computer Science
 Applied Sciences
+Military Science
 Technology
 Arts & Recreation
 Literature
