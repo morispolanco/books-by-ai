@@ -29,7 +29,7 @@
 
 <div class="margin-bottom"><i>Category: {data.category}</i></div>
 
-<h4 class="margin-none">
+<h4>
   <a href={`/book/${data.slug}/${data.id}`}>{data.title}</a>
 </h4>
 <div>(by ChatGPT)</div>
