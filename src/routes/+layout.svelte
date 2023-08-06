@@ -14,7 +14,7 @@
       {#if $page.url.pathname !== "/"}
         <a href="/">Home</a>
       {/if}
-      <a href="https://github.com/tzador/books-by-ai" target="_blank">Discussion</a>
+      <a href="https://news.ycombinator.com/item?id=37022757" target="_blank">Discussion</a>
       <a href="https://github.com/tzador/books-by-ai" target="_blank">GitHub</a>
     </div>
     <slot />
