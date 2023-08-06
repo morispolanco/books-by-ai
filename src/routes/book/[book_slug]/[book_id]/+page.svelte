@@ -2,9 +2,17 @@
   export let data;
 </script>
 
-<div class="margin-bottom"><a href="/">Book written by ChatGPT</a></div>
+<svelte:head>
+  <title>{data.title}</title>
+  <meta name="twitter:title" content={data.title} />
+  <meta name="twitter:description" content={data.summary} />
+  <meta property="og:title" content={data.title} />
+  <meta property="og:description" content={data.summary} />
+</svelte:head>
 
-<div><i>{data.category}</i></div>
+<div class="margin-bottom"><a href="/">Back to books written by AI</a></div>
+
+<div><i>Category: {data.category}</i></div>
 
 <h2>{data.title}</h2>
 

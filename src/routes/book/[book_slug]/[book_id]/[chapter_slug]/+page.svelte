@@ -19,9 +19,17 @@
   onMount(reload);
 </script>
 
-<div class="margin-bottom"><a href="/">Book written by ChatGPT</a></div>
+<svelte:head>
+  <title>{data.chapter.title}</title>
+  <meta name="twitter:title" content={data.title + " / " + data.chapter.title} />
+  <meta name="twitter:description" content={data.summary} />
+  <meta property="og:title" content={data.title + " / " + data.chapter.title} />
+  <meta property="og:description" content={data.summary} />
+</svelte:head>
 
-<div><i>{data.category}</i></div>
+<div class="margin-bottom"><a href="/">Back to books written by AI</a></div>
+
+<div><i>Category: {data.category}</i></div>
 
 <h2>
   <a href={`/book/${data.slug}/${data.id}`}>{data.title}</a>

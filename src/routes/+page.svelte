@@ -7,6 +7,20 @@
   categories.sort();
 </script>
 
+<svelte:head>
+  <title>Books written by AI</title>
+  <meta name="twitter:title" content="Books written by AI" />
+  <meta
+    name="twitter:description"
+    content="Read and easily create new books, tailored to your interests, with the help of ChatGPT."
+  />
+  <meta property="og:title" content="Books written by AI" />
+  <meta
+    property="og:description"
+    content="Read and easily create new books, tailored to your interests, with the help of ChatGPT."
+  />
+</svelte:head>
+
 <h1>Library of books written by AI</h1>
 
 <p>
