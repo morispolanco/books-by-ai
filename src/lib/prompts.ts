@@ -12,6 +12,7 @@ Do not include Key Terms and Definitions.
 Do not incude References.
 Do not include Acknowledgments.
 Do not include About the Author.
+Do not include Appendices.
 
 Output in the following format,
 with each chapter and section title going on a new line,
