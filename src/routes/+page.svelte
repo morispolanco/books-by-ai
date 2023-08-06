@@ -33,9 +33,9 @@
 </p>
 <p>Chapter and their section content is generated on demand, once you start reading the book.</p>
 <p>
-  If you are not satisfied with the generated content, or need additional information or
-  clarifications, the system allows you to <b>chat with the content</b>, in order to receive
-  additional information tailored to your interests.
+  If you are not satisfied with the generated content, or need additional information, the system
+  allows you to <b>chat with the content</b>, in order to receive additional information tailored to
+  your interests.
 </p>
 <p>Currently all the books are public, and listed on the homepage, sorted into categories.</p>
 
