@@ -4,6 +4,7 @@ The title of the book is: ${title}.
 Generate Table of Contents for the book.
 ${instructions}.
 It should contain at least 11 top level chapters, each with 5 to 10 sections.
+It should contain only top level chapters with sections, no subsections should be included.
 Do not include any extra text or notes before or after the desired output.
 
 Output in the following format,
