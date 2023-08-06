@@ -7,6 +7,12 @@ It should contain at least 11 top level chapters, each with 5 to 10 sections.
 It should contain only top level chapters with sections, no subsections should be included.
 Do not include any extra text or notes before or after the desired output.
 
+Do not include Glossary.
+Do not include Key Terms and Definitions.
+Do not incude References.
+Do not include Acknowledgments.
+Do not include About the Author.
+
 Output in the following format,
 with each chapter and section title going on a new line,
 prefixed with the chapter or section number,
