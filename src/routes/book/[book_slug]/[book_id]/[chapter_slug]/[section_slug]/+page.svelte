@@ -57,13 +57,13 @@
 
 <div><i>Category: {data.category}</i></div>
 
-<h2 class="margin-none">
+<h4 class="margin-none">
   <a href={`/book/${data.slug}/${data.id}`}>{data.title}</a>
-</h2>
+</h4>
 
-<h3 class="margin-none">
+<h4 class="margin-none">
   <a href={`/book/${data.slug}/${data.id}/${data.chapter.slug}`}>Chapter {data.chapter.title}</a>
-</h3>
+</h4>
 
 <h4>Section {data.section.title}</h4>
 
@@ -93,9 +93,15 @@
   {/if}
 {/each}
 
+<div class="gap" />
+
 <style>
   textarea {
     width: 100%;
     resize: vertical;
+  }
+
+  .gap {
+    height: 10rem;
   }
 </style>

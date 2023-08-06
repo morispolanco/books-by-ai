@@ -23,7 +23,7 @@
   }
 
   function onError(error: Error) {
-    console.log("onError", error);
+    console.error("onError", error);
   }
 
   const { messages, setMessages, append, stop } = useChat({ onFinish, onError });
@@ -67,7 +67,7 @@
   }
 </script>
 
-<h2 class="margin-none">Generate New Book using ChatGPT</h2>
+<h4 class="margin-none">Create New Book using AI</h4>
 
 <div class="margin-bottom" />
 

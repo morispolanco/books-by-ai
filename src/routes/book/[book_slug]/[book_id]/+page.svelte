@@ -14,7 +14,7 @@
 
 <div><i>Category: {data.category}</i></div>
 
-<h2>{data.title}</h2>
+<h4>{data.title}</h4>
 
 <p>{data.summary}</p>
 

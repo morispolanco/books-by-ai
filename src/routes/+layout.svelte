@@ -8,7 +8,7 @@
 </script>
 
 <div class="sm-12 md-8 col">
-  <div class="paper column">
+  <div class="column">
     <slot />
   </div>
 </div>

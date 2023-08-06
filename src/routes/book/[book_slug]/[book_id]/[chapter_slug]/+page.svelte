@@ -31,13 +31,13 @@
 
 <div><i>Category: {data.category}</i></div>
 
-<h2>
+<h4>
   <a href={`/book/${data.slug}/${data.id}`}>{data.title}</a>
-</h2>
+</h4>
 
-<h3>
+<h4>
   Chapter {data.chapter.title}
-</h3>
+</h4>
 
 {#each data.chapter.sections as section}
   <div>
